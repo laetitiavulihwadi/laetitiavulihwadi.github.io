@@ -1,9 +1,17 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 1%;
     box-sizing: border-box;
+}
+body {
     font-family: popping,sans-serif;
+    
+    
    
+}
+
+#page{
+    padding: 10px;
 }
 header{
     display: flex;
@@ -20,22 +28,29 @@ header{
 }
 #all{
     padding: 10% 0% 0% 0%;
+    background-color: #99b1cd;
+     
 }
 a:hover{
     text-decoration: none;
-color:black;
+    color:rgb(61 61 122);
 }
+
 h3{
     text-decoration: underline;
     text-align: center;
      padding-bottom: 10px;
+     color: #d36e70;
+     
 }
 p{
     text-align: justify;
+    
 }
 .presentation{
     padding: 0% 10%;
     display: flex;
+    background-color:#77B5FE;
     }
 .presentation li{
     margin: 50px 10px;
@@ -47,3 +62,17 @@ span{
 .groupe h2{
     color:whhite;
 }
+
+@font-face{
+    font-family: laety; src: url("../picture.ttf");
+}
+.activités{
+    color: blue;
+    font-family: laety;
+}
+
+.activités li {
+    margin-left: 20px;
+}
+
+
