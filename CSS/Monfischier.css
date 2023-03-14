@@ -1,0 +1,303 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0% 10%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#77B5FE;
+    box-shadow: 2px 2px 20px black  ;
+}
+body{
+    position: relative;
+}
+.menu{
+    padding: 0% 10%;
+    display: flex;
+    }
+    .menu li{
+        margin: 50px 10px;
+        list-style: none;
+        
+    }
+   .menu a:hover{
+        text-decoration: none;
+    color:yellow;}
+    span{
+        color: yellow;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: popping,sans-serif;
+       
+    }
+    
+    #aboutus{
+        padding: 10% 5% 5% 5%;
+        background-color:  #afc5e0 ;
+        
+       }
+    #aboutus h2{
+      margin-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+        color: rgb(140, 62, 62);
+     }
+    #aboutus h2:hover{
+        color:blue
+        }
+    .droit img{
+   
+    width: 500px;
+    height: 400px;
+    
+
+   }
+   div .client{
+    font-size: 50px;
+   }
+   #aboutus div .gauche p{
+        margin-right: 50%;
+      
+   }
+    #aboutus p{
+       text-align: justify;
+       font-size: 150%;
+       color:rgb(72, 72, 104)
+       
+    }
+    
+    .contact button{
+        background-color:#77B5FE;
+        margin-top: 30px;
+        padding: 5px 10px;
+        transition: 0.5s;
+         position: relative;
+        cursor: pointer;
+        border: 10px solid gray;
+        box-shadow: 2px 2px 20px green
+
+        
+    }
+
+      /* contact page6*/
+      
+          
+    main {
+        background-color: rgba(0, 0, 0, 0.05);
+        padding: 2% 0% 0% 0%;
+        background-color:#afc5e0;
+      }
+      
+      main.services-list {
+        padding: 10px 10%;
+        display: grid;
+        grid-template-columns: auto 12px auto;
+        gap: 3px;
+        justify-content: space-between;
+       
+        }
+        .left{
+          flex-basis: 300px;
+         
+        }
+        .right{
+          flex-basis: 300px;
+          margin-left: 20px;
+        }
+      
+      .service img {
+        width: 100px;
+        background-color:#77B5FE   ;
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        
+       
+      }
+      
+      .service {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px auto;
+      }
+      .service h2{
+        padding: 10px;
+        margin-bottom: 10px;
+        
+
+      }
+      
+      .service p {
+        color: #333;
+        font-size: 100%;
+        text-align: left;
+        padding-top: 3px;
+      }
+      
+     
+     .titre h1{
+      color:#afc5e0;
+      border: 10px solid #77B5FE ;
+      border-radius: 20px;
+      text-align: center;
+      background-color: gray;
+      box-shadow: 5px 5px 40px black
+     }
+      /* vission page6*/
+    ol{
+      padding: 20px;
+      
+  }
+  #vision{
+      margin: 30px;
+  }
+  .nosVisions{
+    background-image: url(../images/IMG_5354.jpg);
+  }
+  #vision a{
+    font-size: 30px;
+  }
+  @font-face{
+    font-family: laety; src: url("../picture.ttf");
+}
+  
+  #vision h2{
+    color:brown;
+    text-decoration: dashed;
+    font-size: 50px;
+    text-align: center;
+    border: 10PX dotted #77B5FE ;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px  #333;
+  }
+  #vision p{
+    font-size: 150%;
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .liste li{
+    background-color:rgb(38, 121, 121);
+    font-family: laety;
+    font-size: 150%;
+    border-radius: 50px;
+    
+  }
+  .devise{
+    color:rgb(9, 78, 78);
+  }
+  .devise span{
+    color: brown;
+  }
+ /* mission page6*/
+ 
+ #mission{
+ margin: 20px 10px 10px 10px;
+ text-align: center;
+ border: 5px solid yellowgreen;
+ border-radius: 50px;
+ 
+ font-size: 30px;
+ background-image: url(../images/IMG_5354.jpg);
+ backdrop-filter: blur(6px);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ color: white;
+ }
+ #mission>section{
+  background: rgba(0, 0, 0, 0.541);
+ }
+ .home{
+  font-size: 30px;
+ }
+ #mission span{
+ color:white;
+ }
+ #mission h1{
+  color: green;
+ }
+ #mission button{
+  background-color: white;
+  border: 10px solid gray;
+  box-shadow: 10px 10px 15px  green;
+  margin-bottom: 20px;
+ }
+      /* Activité page6*/
+    .allActivite{
+      background-image: url(../images/DSC_0243.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+       
+      }
+      
+      #activité a:hover{
+        color: brown
+        ;
+      }
+ #activité{
+        padding: 20px;
+       
+        }
+  #activité h2{
+    margin-top: 10px;
+    color: rgb(140, 62, 62);
+    text-align: center;
+  }
+  #activité p{
+    margin-top: 10px;
+    text-align: justify;
+  }
+ #activité ul {
+ 
+  margin-top: 50px;
+ display: grid;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: 2fr 2fr 2fr;
+gap:15px;
+
+font-size: 150%;
+}
+#activité li{
+ background-color: #77B5FE
+}
+
+      /* enregidtrer page6*/
+      .forms{
+        background-color:#afc5e0;
+      }
+      .forms h1{
+        text-align: center;
+      }
+      .tout{
+        border: 2px dotted green;
+        text-align: center;
+      }
+      .forms div{
+        margin: 20px;
+      
+      }
+      .image{
+      display: grid;
+      grid-template-columns: 2fr 2fr ;
+      grid-template-rows: 2fr 2fr ;
+      gap: 15px;
+      width: 10px;
+      height: 15px;
+
+      }
+
+
+      
+
+      
+      
